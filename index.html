@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> PGN Convert </title>
+  <link href='style.css' rel='stylesheet' type='text/css'/>
+  <link rel="icon" href="/src/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=DM Mono' rel='stylesheet'>
+</head>
+ 
+<body id='body'>
+  <textarea id='input' placeholder='Chess.com PGN'></textarea>
+  <textarea id='output' placeholder='Lichess.org PGN' disabled></textarea>
+  <img id='glow' src='src/glow.png'></img>
+  <img id='chesscomlogo' src='src/chesscomlogo.png'></img>
+  <img id='lichesslogo' src='src/lichesslogo.png'></img>
+  <img id='arrow' onclick='quickPGN()' src='src/arrow.png'></img>
+ 
+  <button id='copy' onclick='copyToClipboard()'> COPY </button>
+  <button id='paste' onclick='pasteFromClipboard()'> PASTE </button>
+  
+  <script defer src='script.js'></script>
+</body>
+
+</html>

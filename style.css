@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+textarea {
+  font-family: 'DM Mono';
+  margin: 0;
+  position: absolute;
+  resize: none;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+img {
+  margin: 0;
+  position: absolute;
+  resize: none;
+  transform: translate(-50%, -50%);
+  border: 0;
+  border-style: none;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+button {
+  font-family: 'DM Mono';
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+  resize: none;
+  transform: translate(-50%, -50%);
+  background-color: #120e0a;
+  font-weight: bold;
+}
+
+#input { background-image: url('src/chesscom.png'); }
+#output { background-image: url('src/lichess.png'); }
